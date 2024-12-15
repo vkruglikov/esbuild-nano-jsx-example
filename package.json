@@ -1,0 +1,16 @@
+{
+  "name": "test-jsx",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.js --dev",
+    "build": "node esbuild.config.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.24.0",
+    "esbuild-plugin-copy": "^2.1.1",
+    "nano-jsx": "^0.1.0",
+    "prettier": "3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
